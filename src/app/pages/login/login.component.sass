@@ -1,54 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap')
+.divider:after,
+.divider:before
+  content: ""
+  flex: 1
+  height: 1px
+  background: #eee
 
-.text-login
-  font-size: 20px
-  font-family: 'Poppins', sans-serif
-  color: #000
+.h-custom
+  height: calc(100% - 73px)
 
-.btnLogin
-  font-size: 30px
-  color: #3769b6
-  border-radius: 20px
-  width: 200px
-  margin-top: 30px
+@media (max-width: 450px)
+.h-custom
+  height: 100%
 
-.username
-  padding: 10px
-  color: #3769b6
-  border-radius: 13px
-  width: 250px
-
-.password
-  padding: 10px
-  color: #3769b6
-  border-radius: 13px
-  margin-top: 30px
-  width: 250px
-
-.box-login
-  position: absolute
-  top: 45%
-  left: 50%
-  transform: translate(-50%, -50%)
-  width: 550px
-  height: 400px
-  max-height: 450px
-  background-color: white
+#prefeitura-logo
   filter: drop-shadow(3px 3px 5px rgb(179, 177, 177))
-  border-radius: 18px
-  text-align: center
-
-.box-left
-  width: 450px
-  height: 400px
-  max-height: 450px
-  background-color: #b7c2d1
-  filter: drop-shadow(3px 3px 5px rgb(179, 177, 177))
-  border-radius: 18px
-  position: relative
-  margin-top: 12.6%
-  margin-left: 12%
-
-    // border-top-right-radius: 0px
-    // border-bottom-right-radius: 0px
-    // position: relative
